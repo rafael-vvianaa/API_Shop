@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael Viana\\Shop\\Shop.csproj": {}
+    "C:\\Users\\Rafael Viana\\API_Shop\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael Viana\\Shop\\Shop.csproj": {
+    "C:\\Users\\Rafael Viana\\API_Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael Viana\\Shop\\Shop.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael Viana\\API_Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\Users\\Rafael Viana\\Shop\\Shop.csproj",
+        "projectPath": "C:\\Users\\Rafael Viana\\API_Shop\\Shop.csproj",
         "packagesPath": "C:\\Users\\Rafael Viana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael Viana\\Shop\\obj\\",
+        "outputPath": "C:\\Users\\Rafael Viana\\API_Shop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafael Viana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -35,6 +35,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
